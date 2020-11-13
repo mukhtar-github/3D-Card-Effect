@@ -13,7 +13,6 @@ body{
 }
 
 .container{
-    background: lightblue;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -23,8 +22,21 @@ body{
 .card{
     min-height: 80vh;
     width: 35rem;
-    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    padding: 0rem 5rem;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0 0px 50px rgba(0, 0, 0, 0.2);
 }
 
+.sneaker{
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightcoral;
+}
+
+.sneaker img{
+    width: 20rem;
+}
 
 
