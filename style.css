@@ -54,11 +54,13 @@ body{
 
 .info hi {
     font-size: 3rem;
+    font-weight: bolder;
 }
 .info h3 {
     font-size: 1.3rem;
     padding: 2rem 0rem;
     color: #585858;
+    font-weight: bold;
 }
 .sizes {
     display: flex;
@@ -77,4 +79,17 @@ body{
 button.active {
     background: #585858;
     color: white;
+}
+.purchase{
+    margin-top: 5rem;
+}
+.purchase button{
+    width: 100%;
+    padding: 1rem 0rem;
+    background: #f54642;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: bolder;
 }
