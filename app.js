@@ -19,10 +19,14 @@ container.addEventListener('mousemove', (e) => {
 //Animate In
 container.addEventListener('mouseenter', (e) => {
     card.style.transition = 'none';
+    //Popout
+    title.style.transform = 'translateZ(150px)';
 });
 
 //Animate Out
 container.addEventListener('mouseleave', (e) => {
     card.style.transition = 'all 0.5s ease';
     card.style.transform = `rotateY(0deg) rotateX(0deg)`;
+    //Popback
+    title.style.transform = 'translateZ(0px)';
 });
